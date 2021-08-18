@@ -5,3 +5,7 @@ Google Address autocomplete with maps and also you can drag maps to find new add
 
 
 Clone the project and insert your google api key in the bottom of index.html where I have included google map javascript library
+
+
+My Linkedin Profile
+https://ae.linkedin.com/in/faisalkhalidsiddiqui
