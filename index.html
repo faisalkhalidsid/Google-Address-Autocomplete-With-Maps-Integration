@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+      
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+      
+      
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
+      
+      
+      
+    <script src="./index.js"></script>
+  </head>
+  <body>
+      
+
+    <div id="map"></div>
+      
+      <div >
+ 
+    <label >Location</label>
+          
+          <br>
+          
+          <div id="address"><b>Loading ...</b></div> 
+
+          
+          <br>
+
+  <center><button type="submit" class="btn btn-danger btn-lg btn-block">Confirm Location</button></center>
+          </div>
+
+      
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=places&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
